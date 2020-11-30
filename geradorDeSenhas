@@ -1,0 +1,17 @@
+package senhaAmongUs;
+
+import java.util.Random;
+
+public class geradorDeSenhas {
+	
+	public int geradorNumeros() {
+		
+		Random random = new Random();
+		int numero = random.nextInt(26);
+		numero ++;
+		
+		return numero;
+		
+	}
+	
+}
